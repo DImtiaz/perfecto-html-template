@@ -1,0 +1,287 @@
+/*
+	Template name: Perfecto - Professional Multipurpose HTML Theme
+	Author: Dewan Imtiaz Been Emran
+	Release Date:
+	Author URI: eimtiaz.com
+
+
+*/
+
+/*
+	This is main style template.
+	This file includes:
+
+
+*/
+
+/* fonts import */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,800&display=swap');
+
+/* Header section */
+
+.headertop{
+	color: #fff;
+	background:#192330;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Poppins', sans-serif;
+}
+.pl-20{
+	padding-left: 20px;
+}
+.pl-10{
+	padding-left: 10px;
+}
+
+
+
+/* Navigation section */
+.navigation{
+	padding-top: 25px;
+	padding-bottom: 20px;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+}
+.whitebg{
+	background:#fff !important;
+	border: none !important;
+}
+
+
+
+/* slider section */
+#slider{
+
+}
+.slider-image{
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+}
+.slider-image img{
+	width: 100%;
+
+	/*z-index: 1;*/
+}
+.overlay{
+	background: rgba(0, 0, 0, 0.65) none repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.slider-content{
+	display: block;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.slider-content-wrap{
+	 position: relative;
+    z-index: 20;
+}
+.slider-content h2{
+	color: #FFFFFF;
+    font-size: 54px;
+    font-weight: 800;
+    position: relative;
+    margin-top: 0px;
+    /*line-height: 1.8em;*/
+    letter-spacing: 0.5px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+
+}
+.slider-table{
+	display: table;
+	display: table;
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+.slider-table-cell{
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.slider-content p{
+	font-size: 18px;
+    color: #FFFFFF;
+    line-height: 1.4em;
+    letter-spacing: 0.25px;
+    font-weight: 400;
+}
+.slider-upper{
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 0px !important;
+}
+.sliderbtn{
+	font-family: 'Poppins', sans-serif;
+	background: transparent;
+	padding: 13px 30px;
+	border: 1px solid #fff;
+	color:#fff;
+	margin-top: 60px;
+}
+.lightfont{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300 !important;
+	margin-top: 40px; 
+}
+#slider .owl-item.active .slider-content h2 {
+  -webkit-animation: fadeInDown 1200ms ease-in-out;
+  -moz-animation: fadeInDown 1200ms ease-in-out;
+  -ms-animation: fadeInDown 1200ms ease-in-out;
+  animation: fadeInDown 1200ms ease-in-out;  
+}
+
+#slider .owl-item.active .slider-content p.lightfont{
+  -webkit-animation: fadeInUp 1300ms ease-in-out;
+  -moz-animation: fadeInUp 1300ms ease-in-out;
+  -ms-animation: fadeInUp 1300ms ease-in-out;
+  animation: fadeInUp 1300ms ease-in-out;  
+}
+#slider .owl-item.active .slider-content p.slider-upper{
+  -webkit-animation: fadeIn 1300ms ease-in-out;
+  -moz-animation: fadeIn 1300ms ease-in-out;
+  -ms-animation: fadeIn 1300ms ease-in-out;
+  animation: fadeIn 1300ms ease-in-out;  
+}
+
+#slider .owl-item.active .sliderbtn {
+  -webkit-animation: fadeInUp 1200ms ease-in-out;
+  -moz-animation: fadeInUp 1200ms ease-in-out;
+  -ms-animation: fadeInUp 1200ms ease-in-out;
+  animation: fadeInUp 1200ms ease-in-out;  
+}
+
+/* intro section */
+.introtitle{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 35px;
+	margin-top: 60px;
+	letter-spacing: 3px;
+}
+.multipurpose{
+	color: #009688;
+}
+.introdescription{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 40px;
+}
+.introimage{
+	margin-top: 80px;
+}
+
+.splitinfo{
+	background: #fafafa;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	font-family: 'Poppins', sans-serif;
+
+}
+.splitinfo img{
+	padding-bottom: 40px;
+	/*width: 54px;
+	height: 100px;
+*/
+}
+.splitimage{
+	width: 54px;
+	height: 100px;
+	overflow: hidden;
+}
+.splitheader{
+	margin-bottom: 30px;
+	font-weight: 500;
+	font-size: 18px;
+}
+.splitdescription{
+	text-align: center;
+	font-weight: 300;
+}
+
+/* portfolio section */
+.projectshow{
+	min-height: 660px;
+	padding-bottom: 50px;
+}
+.element-item{
+	width: 25%;
+	float: left;
+	padding: 5px;
+}
+
+.projecttitle{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 35px;
+	margin-top: 30px;
+	letter-spacing: 3px;
+	margin-bottom: 30px;
+}
+.project-button-group{
+	margin-bottom: 30px;
+}
+.projectbutton{
+	padding:10px 16px;
+	font-family: 'Poppins', sans-serif;
+	background: #fff;
+	border: 1px solid #ccc;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* skill section */
+.skillsection{
+	padding-top: 50px;
+	padding-bottom: 60px;
+	background: #FAFAFA;
+}
+.skillheader{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+.skillitem{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+.right{
+	float: right;
+}
+.panel-heading a[aria-expanded='true'] {
+    color: #009688;
+    text-decoration: none;
+}
+.progress{
+	height: 16px !important;
+}
+
+/* short description */
+
+.short-description{
+	padding-top: 90px;
+	padding-bottom: 50px;
+}
+
+.shortdescheader{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.shortdescdetails{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+}
