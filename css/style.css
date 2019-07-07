@@ -163,9 +163,9 @@
 /* intro section */
 .introtitle{
 	font-family: 'Poppins', sans-serif;
-	font-weight: 400;
+	font-weight: 600;
 	text-transform: uppercase;
-	font-size: 35px;
+	font-size: 30px;
 	margin-top: 60px;
 	letter-spacing: 3px;
 }
@@ -223,7 +223,7 @@
 
 .projecttitle{
 	font-family: 'Poppins', sans-serif;
-	font-weight: 400;
+	font-weight: 600;
 	text-transform: uppercase;
 	font-size: 35px;
 	margin-top: 30px;
@@ -284,4 +284,186 @@
 .shortdescdetails{
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
+}
+.readmorebtn{
+	font-family: 'Poppins', sans-serif;
+	background: transparent;
+	padding: 13px 30px;
+	border: 1px solid #000;
+	color: #000;
+	margin-top: 30px;
+}
+
+/* core services function */
+.corefeature{
+	font-family: 'Poppins', sans-serif;
+	padding-top: 90px;
+	padding-bottom: 70px;
+	background: #F7F7F7;
+
+}
+.coreheader{
+	margin-bottom: 30px;
+	font-weight: 500;
+	font-size: 18px;
+}
+.coredescription{
+	margin-bottom: 80px;
+}
+
+/* slogan section */
+.slogan{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: #292929;
+	color: #fff;
+}
+.sloganheader{
+	text-transform: uppercase;
+	font-size: 27px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.sloganbtn{
+	font-family: 'Poppins', sans-serif;
+	background: transparent;
+	padding: 13px 30px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	margin-top: 50px;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+/* team section */
+.team{
+	padding-top: 60px;
+	padding-bottom: 70px;
+}
+.teamtitle{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 35px;
+	margin-top: 30px;
+	letter-spacing: 2px;
+	margin-bottom: 40px;
+}
+
+/* member section */
+.memberdetails{
+	position: relative;
+}
+.memberinfo{
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	width: 80%;
+	background: rgba(0,0,0,0.67);
+	padding-bottom: 20px;
+	color: #fff;
+	opacity: 0;
+	transition: all 0.4s ease;
+}
+.memberdetails:hover .memberinfo{
+	opacity: 1;
+}
+
+/* price package section */
+.price{
+	background: url('../images/price-section-bg.jpg');
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.priceheading{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 35px;
+	margin-top: 30px;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	color: #ffffff;
+}
+.regular-price{
+	margin-top: 60px;
+}
+.special-price{
+	margin-top: 10px;
+}
+.priceheader{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	background-color: #313131;
+	color: #ffffff;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+.pricetype{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	letter-spacing: 3px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.currency{
+	font-size: 25px;
+	font-weight: 400;
+}
+.amount{
+	font-size: 50px;
+}
+.duration{
+	font-size: 17px;
+	font-weight: 400;
+}
+sup{
+	top: -17px !important;
+}
+sub{
+	bottom: 0 !important;
+}
+.purchaseoffer{
+	font-size: 16px;
+	letter-spacing: 0;
+	font-weight: 300;
+	color: #969595;
+}
+.pricedesc{
+	background: #fff;
+	padding-top: 50px;
+	color: #808080;
+}
+.pricedesc ul{
+	margin-bottom: 0 !important;
+}
+.pricedesc ul li{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+.buybtn{
+	background: #262626;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.buybtn2{
+	background: #009688;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.popularheader{
+	font-family: 'Poppins', sans-serif;
+	background: #fff;
+	color: #444444;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
